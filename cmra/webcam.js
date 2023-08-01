@@ -19,5 +19,5 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
  function goHome() {
-    windows.history.back();
+    window.history.back();
   }
