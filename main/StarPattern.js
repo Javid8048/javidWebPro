@@ -7,3 +7,7 @@ for (let i = 1; i <= 5; i++) {
 }
 console.log(star);
 document.querySelector('#container').innerText = star;
+
+ function goHome() {
+    windows.history.back();
+  }
