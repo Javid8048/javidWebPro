@@ -9,5 +9,5 @@ console.log(star);
 document.querySelector('#container').innerText = star;
 
  function goHome() {
-    windows.history.back();
+    window.history.back();
   }
