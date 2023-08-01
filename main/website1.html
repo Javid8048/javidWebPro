@@ -11,7 +11,7 @@
 
 <body>
   <h1>Hero the background change dynamically <br>
-    <button><a href="/">Back to Home</a></button>
+    <button onclick="goHome()">Back to Home</button>
   </h1>
 </body>
 <script>
@@ -22,6 +22,10 @@
     let colorVal2 = (Math.random() * 1000).toFixed();
     document.querySelector('body').style.backgroundImage = `linear-gradient(to right, #${colorVal}, #${colorVal2})`;
   }, 1000);
+
+   function goHome() {
+    windows.history.back();
+  }
   //
 </script>
 
