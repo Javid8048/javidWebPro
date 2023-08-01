@@ -1,0 +1,38 @@
+* {
+  height: 100%;
+  width: 100%
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  /* animation: changeBg 5s infinite; */
+}
+
+h1 button {
+  width: 20rem;
+  height: 5rem
+}
+
+
+@keyframes changeBg {
+  0% {
+    background-image: linear-gradient(to right, blue, black);
+  }
+
+  25% {
+    background-image: linear-gradient(to right, #007bff, #6a4848);
+  }
+
+  50% {
+    background-image: linear-gradient(to right, #15702b, #6e1212);
+  }
+
+  75% {
+    background-image: linear-gradient(to right, #9e5400, #ffc800);
+  }
+
+  100% {
+    background-image: linear-gradient(to right, #91185e, powderblue);
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/data.js"></script>
+</head>
+
+<body>
+  <div id="container"><button>Click this button to render HighChart</button></div>
+  <button><a href="/">Home</a></button>
+</body>
+</body>
+<script>
+  document.addEventListener('click', () => {
+    const options = {
+      chart: {
+        type: 'column',
+        zoomType: 'xy'
+      },
+      title: {
+        text: 'Basic Chart'
+      },
+      xAxis: {
+        categories: ['apple', 'mango', 'orange'],
+
+      },
+      yAxis: {
+        title: {
+          text: 'Fruits Eaten'
+        }
+      },
+      series: [{
+        name: 'Javid',
+        data: [1, 2, 3],
+      },
+      {
+        name: 'Ashwaq',
+        data: [4, 5, 2],
+      }
+      ]
+    }
+    options.data = {
+      enablePolling: true,
+      dataRefreshRate: 2
+    };
+    Highcharts.chart('container', options);
+  })
+
+
+</script>
+
+</html>

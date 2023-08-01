@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0 auto;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="container"></h1>
+  <h1>Here i also had pasted the code below, try it</h1>
+  <pre style="display: block; text-align: start;">
+    let star = '';
+    for (let i = 1; i <= 5; i++) {
+      for (let j = 1; j <= i; j++) {
+        star = star + '🌻 ';
+      }
+    star = star + '\n';
+    }
+    console.log(star);
+    document.querySelector('#container').innerText = star;
+  </pre><br>
+  <button><a href="/">Home</a></button>
+</body>
+<script src="StarPattern.js"></script>
+
+</html>

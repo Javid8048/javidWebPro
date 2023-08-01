@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web camera</title>
+  <style>
+    div {
+      width: 500px;
+      height: 400px'
+      border: 2px solid black;
+      position: relative;
+    }
+  video {
+      width: inherit;
+      height: inherit;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <video id="vid"></video>
+  </div> 
+  <br/>
+  <button id="but" autoplay>Opem WebCam</button>
+</body>
+<script src="webcam.js"></script>
+</html>
