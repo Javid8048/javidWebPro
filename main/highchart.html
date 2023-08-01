@@ -11,7 +11,7 @@
 
 <body>
   <div id="container"><button>Click this button to render HighChart</button></div>
-  <button><a href="/">Home</a></button>
+  <button onclick="goHome()">Home</button>
 </body>
 </body>
 <script>
@@ -50,7 +50,9 @@
     Highcharts.chart('container', options);
   })
 
-
+  function goHome() {
+    windows.history.back();
+  }
 </script>
 
 </html>
