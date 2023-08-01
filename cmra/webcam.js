@@ -17,3 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .catch(alert);
   });
 });
+
+ function goHome() {
+    windows.history.back();
+  }
