@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  font-family: Montserrat, Source Sans Pro;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+#homeBtn {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+main {
+  position: relative;
+}
+
+#screen {
+  position: absolute;
+  background-color: black;
+  width: 6.5rem;
+  height: 7.5rem;
+  top: 6rem;
+  left: 6.5rem;
+  color: white;
+  overflow: hidden;
+}
+
+#flexDiv {
+  top: 50%;
+  position: absolute;
+  display: inline;
+  width: 60%;
+}
+
+#buttonDiv button {
+  width: 3rem;
+  height: 2rem;
+  margin: 1rem;
+  border: 0;
+}

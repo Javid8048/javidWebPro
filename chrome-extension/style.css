@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  min-width: 20rem;
+}
+
+#hMain {
+   font-family: cursive;
+   background: linear-gradient(to right, #f32170,
+                    #ff6b08, #cf23cf, #eedd44);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+
+#input-el {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+input[type=button] {
+  background-color: #006100;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin-top: 0.3rem;
+  text-transform: uppercase;
+  border: none;
+}
+
+#delete-btn {
+  background-color: #ff0000;
+}
+
+input[type=text]:focus {
+  background-color: #6fc1c3;
+}
+
+#box {
+  cursor: pointer;
+  width: 10rem;
+  margin: auto;
+  height: 5rem;
+  padding: 2rem;
+  background-color: lightseagreen;
+}
+
+#boxBtn button {
+  background: #ff4400;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+ul {
+  padding: 0;
+  margin: 1rem 0;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  margin: 0.5rem;
+  color: green;
+}
+
+a {
+  color: inherit;
+}
